@@ -1,0 +1,58 @@
+p{
+	font-size: 1em; /*in cm px*/
+	/*Esto es un comentario :D*/
+	font-family: helvetica; /*Esto define el tipo de letra*/
+}
+.container{ /*funciona solo con lo que tengan container*/
+	width: 90%; /*ancho*/
+	margin: 0 5%; /*margen exterior*/
+	/*padding: 2px 4px 10px 0px; margen interior, modelo de caja, el orden de los valores al usar 4 valores es arriba, derecha, abajo, izquierda
+	                        	si solo se usan dos es, arriba-abajo, izquierda-derecha; y si solo es 1 se aplica a los 4
+	margin: 40px;
+	margin-right: ;
+	margin-top: */
+}
+
+/*Colores*/
+.header-container{ /*se aplica solo a lo que contenga esta parte*/
+	border-bottom: 20px solid #E44d26;
+}
+
+.footer-container, .main aside{ /*asignale al footer, asi como a todos los aside que se encuentren en .main*/
+	border-top: 20px solid #E44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside{
+	background: #F16529;
+}
+
+.title {
+	color: white;
+}
+
+/*Estilo para mobiles*/
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav a{
+	display: block; /*visibilidad del elemento, la muestra por que si :D*/
+	margin-bottom: 10px;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background: #E44d26;
+}
+
+nav a:visited{ /*controla el color del link al momento de ser visitado, su color por default es morado, esto permite cambiarlo*/
+	color: white;
+}
+
+nav a:hover{ /*para controlar cuando el cursor pase sobre el link*/
+	text-decoration: underline; /*cada que se pase el cursor se pondra visible una linea*/
+}
