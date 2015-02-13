@@ -56,3 +56,67 @@ nav a:visited{ /*controla el color del link al momento de ser visitado, su color
 nav a:hover{ /*para controlar cuando el cursor pase sobre el link*/
 	text-decoration: underline; /*cada que se pase el cursor se pondra visible una linea*/
 }
+
+
+/*hoja en cascada, el naveganos li interpretara conforme se le indique, este sobreescribira el estilo(propiedad) en común
+pero si los atributos son diferentes, juntara ambos aspectos, sin sobreescribir*/
+.main{
+	padding: 30px 0; /*arriba-abajo, der-izq*/
+}
+
+.main article hi{
+	font-size: 2em;
+}
+
+.main aside{
+	color: white;
+	padding: 0px 5%;
+}
+
+.footer-container footer{
+	color: white;
+	padding: 20px 0;
+}
+
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;;
+}
+
+.clearfix:after{
+	clear: both;;
+}
+
+
+/* Monitorear la resolución del dispositivo */
+/* estilo para pantallas más anchas de 480px */
+/* <meta name="viewport" content="width-device-width"> */
+
+@media only screen and (min-width: 480px){
+	h1{
+		color: red;
+	}
+	nav a{
+		float: left;
+		width: 27%;
+		margin: 0 1.7%;
+		padding: 25px 2%;
+		margin-bottom: 0;
+	}
+
+	nav li:first-child a{
+		margin-left: 0;
+	}
+
+	nav li:last-child a{
+		margin-left: 0;
+	}
+
+	nav ul li{
+		display: inline;
+	}
+
+} /* cierra la llave @media min-width: 480px */
+
+
