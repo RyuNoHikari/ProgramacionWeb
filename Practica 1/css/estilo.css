@@ -120,3 +120,14 @@ pero si los atributos son diferentes, juntara ambos aspectos, sin sobreescribir*
 } /* cierra la llave @media min-width: 480px */
 
 
+/* para pantallas más anchas que 850px */
+@media only screen and (min-width: 850px){
+	
+	.header-container,
+	.main aside{
+		--moz-box-shadow: 28px 30px 28px #000000;
+		-webkit-box-shadow: 28px 30px 28px #000000;
+		box-shadow: 28px 30px 28px #000000;
+	}
+
+} /* cierra la llave @media min-width: 850px */
