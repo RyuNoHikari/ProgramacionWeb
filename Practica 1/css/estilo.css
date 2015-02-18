@@ -1,4 +1,4 @@
-p{
+body{
 	font-size: 1em; /*in cm px*/
 	/*Esto es un comentario :D*/
 	font-family: helvetica; /*Esto define el tipo de letra*/
@@ -11,6 +11,13 @@ p{
 	margin: 40px;
 	margin-right: ;
 	margin-top: */
+}
+
+.table{
+	width: 100%;
+}
+td, th{
+	border: 1px solid black;
 }
 
 /*Colores*/
@@ -117,6 +124,13 @@ pero si los atributos son diferentes, juntara ambos aspectos, sin sobreescribir*
 		display: inline;
 	}
 
+	.table{
+		width: 50%
+	}
+	td, th{
+		border: 2px solid red;
+	}
+
 } /* cierra la llave @media min-width: 480px */
 
 
@@ -130,4 +144,32 @@ pero si los atributos son diferentes, juntara ambos aspectos, sin sobreescribir*
 		box-shadow: 28px 30px 28px #000000;
 	}
 
+	.title{
+		float: left;
+	}
+
+	nav {
+		float: right;
+		width: 38%;
+	}
+
+	.main article{
+		float: left;
+		width: 57%;
+	}
+
+	.main aside{
+		float: right;
+		width: 28%;
+	}
+
+	.table{
+		width: 75%;
+	}
+	
+	td, th{
+		border: 1.2px solid blue;
+	}
+
 } /* cierra la llave @media min-width: 850px */
+
