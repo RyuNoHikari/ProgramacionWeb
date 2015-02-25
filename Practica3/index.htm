@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica 4</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- archivo bootstrap -->
+
+    <script type="text/javascript">
+    	//alert('Holiwis :D'); //comentario 1
+    	/* comentario de muchas lineas :D */
+
+    	
+
+
+
+    	var suma=operador1 + operador2;
+
+    	function calcula(operacion){  //para crear un mpetodo se usa function nombre (parametro){}
+
+    	//los valores se optienen a travez del atributo name
+    	var operador1 = document.calc.operador1.value; //no es necesario decir de que tipo es la variable, a menos de que sea un arreglo
+    	var operador2 = document.calc.operador2.value; //se usa para buscar un valor en la pagina y asignarlo a una variable
+
+
+    	//los valores se optienen a travez del id
+    	var operador1 = document.getElementById('operador1').value;
+    	var operador2 = document.getElementById('operador2').value;
+
+    	var result = eval(operador1 + operacion + operador2); //crea la variable resultado, se usa la instruccion eval para una operación
+    														// los signos de "+" son solamente concatenadores, no operadores
+
+    	document.calc.resultado.value=result;
+
+    	alert('operador 1 '+operador1+' operador 2 '+operador2); 
+
+    	}
+
+    	
+
+    	/*
+		El alerta no se usa, en este caso es solo para ejemplo, para imprimir el valor por esta vez
+		El uso de los alert no se usaran en el curo D:
+		Alert bloquea totalmente al navegador
+    	*/
+
+    </script>
+
+  </head>
+  <h1>Practica 4</h1>
+  <body>
+  Formas de incrustrar código java script
+    	<div class="container text-center">
+    		<div class="row">
+    			<div class="col-md-6">     <!-- formularios -->
+    				<form name="calc">
+    					<label for="operador1">Operador 1</label> <!-- pone texto en pantalla como etiqueta, for indica a que elemento esta sociado  -->
+
+    					<input type="number" value="0" name='operador1' id="operador1"
+    					 class="form-control text-center"> <!-- tipos: text, number  -->
+    					<!-- values asigna un valor directamente al formulatio -->
+    					<!-- en la clase class s le hace un estilo de acuerdo a buoostrap -->
+
+    					<label for="operador2">Operador 2</label>
+
+    					<input type="text" value="2" name='operador2' id="operador2"
+    					class="form-control text-center">
+
+    					<input type="button" value=" + " 
+    					class="btn btn-success"
+    					onclick="calcula('+')"> 
+    					<!-- crea un boton, la clase asigna el valor del color -->
+    					<!-- onclick es un evento que se accionara al momento de dar clic en el boton -->
+
+    					<input type="button" value=" - " 
+    					class="btn btn-warning"
+    					onclick="calcula('-')"> 
+
+    					<input type="button" value=" * " 
+    					class="btn btn-info"
+    					onclick="calcula('*')"> 
+
+    					<input type="button" value=" / " 
+    					class="btn btn-danger"
+    					onclick="calcula('*')"> 
+
+
+    					<input type="text" value="" placeholder="Resultado" name="resultado" 
+    					class="form-control text-center"> <!-- placeholder colocara un texto provicional, al momento de que se escriba en la casilla, el texto desaparecera -->
+
+
+<!-- LO HECHO HASTA ESTE MOMENTO NO SE HACE, NO SE TIENE QUE PONER EVENTOS DENTRO DE ETIQUETAS onclick="calcula('-')" -->
+
+
+    				</form>
+    			</div>
+    			
+    			<div class="col-md-6">
+    				
+    			</div>
+    		</div>
+    	</div>
+ 
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </body>
+</html>
