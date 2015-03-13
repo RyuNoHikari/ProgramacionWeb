@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SII</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!-- archivo bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/miestilo.css">
+
+    <script src="js/jquery.min.js"></script>
+
+    <!--<style type="text/css">
+      div{
+        border: 1px solid black;
+      } 
+    </style>-->
+
+
+  </head>
+  <body>
+
+  	 <div class="container text-center" id="barra-superior">
+
+        <div class="row">
+
+          <form class="navbar-form navbar-rigth">
+            <div class="row">
+              <div class="col-md-1">              
+                <div class="form-group text-rigth">
+                  <img src="img/2.jpg" width= "60px" height="80px">
+                </div>
+              </div>
+                
+                <!--<div class="btn-group">
+                  <button type="button" class="btn btn-success">Opciones</button>
+                  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <span class="caret"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </div>-->
+
+              <div class="col-md-8">
+                <h1></h1>
+              </div>
+
+              <div class="col-md-3">
+                <select type="button" class="btn btn-success">
+                  <option>Opciones</option>
+                  <option>Cambiar contraseña</option>
+                  <option>Datos personales</option>
+                </select>
+
+                <div class="form-group">
+                  <button type="button" class="btn btn-success">
+                    <img src="img/4.jpg" width="20" height="20">
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+
+        <div class="row" id="mensaje-reloj">
+          <div class="col-md-3">
+            
+            <div class="row">
+              <img src="img/3.jpg" height="150px" width="250px">
+            </div>
+
+            <div class="row text-left">
+              Mensaje <span class="label label-warning">Nuevo</span>
+            </div>
+
+          </div>
+
+          <div class="col-md-6" id="cal-aplic">
+
+            <div class="row">
+              <h2>Tus Calificaciones</h2>
+                <div>
+                  <table class="table table-striped">
+                    <tr class="primary">
+                      <td class="active" align="center" id="tdclave">Clave</td>
+                      <td class="active" align="center" id="tdgrupo">Grupo</td>
+                      <td class="active" align="center" id="tdMateria">Materia</td>
+                      <td class="active" align="center" id="tdCal_I">Cal.I</td>
+                      <td class="active" align="center" id="tdCal_II">Cal.II</td>
+                      <td class="active" align="center" id="tdCal_III">Cal.III</td>
+                      <td class="active" align="center" id="tdCal_IV">Cal.IV</td>
+                      <td class="active" align="center" id="tdPromedio">Promedio</td>
+                    </tr>
+                    <tr class="success">
+                      <td class="active">FM11</td>
+                      <td class="active">B</td>
+                      <td class="active">REDES DE COMPUTADORA</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                    </tr>
+                    <tr class="success">
+                      <td class="active">FM12</td>
+                      <td class="active">B</td>
+                      <td class="active">INGENIERIA DE SOFTWARE</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                    </tr>
+                    <tr class="danger">
+                      <td class="active">FM13</td>
+                      <td class="active">B</td>
+                      <td class="active">PROGRAMACION WEB</td>
+                      <td class="active">60</td>
+                      <td class="active">50</td>
+                      <td class="active">80</td>
+                      <td class="active">50</td>
+                      <td class="active">60</td>
+                    </tr>
+                    <tr class="success">
+                      <td class="active">FM14</td>
+                      <td class="active">B</td>
+                      <td class="active">A.B.D.</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                    </tr>
+                    <tr class="success">
+                      <td class="active">FM15</td>
+                      <td class="active">B</td>
+                      <td class="active">LENGUAJES DE INTERFAZ</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                    </tr>
+                    <tr class="success">
+                      <td class="active">FM16</td>
+                      <td class="active">B</td>
+                      <td class="active">GRAFICACION</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                    </tr>
+                    <tr class="success">
+                      <td class="active">FM17</td>
+                      <td class="active">B</td>
+                      <td class="active">LENG. Y AUTOMATAS 1</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                      <td class="active">100</td>
+                    </tr>
+                  </table>
+                </div>
+             </div>
+
+             <div class="row">
+             <h2>Aplicaciones</h2>
+               <div class="col-sm-4 col-md-3 text-center">
+                <div class="thumbnail">
+                  <i class="fa fa-pencil-square-o fa-5x">
+                  ::before
+                  </i>
+                </div>
+                
+                <div class="caption">
+                  <p class="text-center">Inscripciones</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-3 text-center">
+                <div class="thumbnail">
+                  <i class="fa fa-pencil-square-o fa-5x">
+                  ::before
+                  </i>
+                </div>
+                
+                <div class="caption">
+                  <p class="text-center">Orden de entrada</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-3 text-center">
+                <div class="thumbnail">
+                  <i class="fa fa-pencil-square-o fa-5x">
+                  ::before
+                  </i>
+                </div>
+                
+                <div class="caption">
+                  <p class="text-center">Kardex</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-3 text-center">
+                <div class="thumbnail">
+                  <i class="fa fa-pencil-square-o fa-5x">
+                  ::before
+                  </i>
+                </div>
+                
+                <div class="caption">
+                  <p class="text-center">Quejas y sugerencias/p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-3 text-center">
+                <div class="thumbnail">
+                  <i class="fa fa-pencil-square-o fa-5x">
+                  ::before
+                  </i>
+                </div>
+                
+                <div class="caption">
+                  <p class="text-center">Dar de baja materia</p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-3 text-center">
+                <div class="thumbnail">
+                  <i class="fa fa-pencil-square-o fa-5x">
+                  ::before
+                  </i>
+                </div>
+                
+                <div class="caption">
+                  <p class="text-center">Iscripciones</p>
+                </div>
+              </div>
+             </div>
+
+          </div>
+
+          <div class="col-md-3" id="usuario">
+            <div class="thumbnail">
+              <img src="img/1.jpg" alt="Foto">
+              <br>
+              <div class="text-left">
+                <ul>
+                  <li>No control: 12030715
+                  <br>
+                  <li>Nombre Pancho: Pantera
+                  <br>
+                  <li>Especialidad: Sistemas Computacionales
+                  <br>
+                  <li>Semestre: 6
+                  <br>
+                  <li>Creditos Acumulados: 135
+                  <br>
+                  <li>Inscrito: Si
+                  <br>
+                  <li>Estatus: Vigente
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+  </body>
+</html>

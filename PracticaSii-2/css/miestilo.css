@@ -1,0 +1,37 @@
+/*input {
+
+}
+
+body label{	
+	color: white;
+	font-size: 30px;	
+	background: black;
+}
+
+body h1{
+	font-size: 40px;
+	color: white;	
+	text-align: center;		
+	background: black;
+}*/
+
+div a{/*para cuando pasamos el cursor por arriva*/
+	text-decoration: underline;
+}
+
+/*div{
+     border: 1px solid black;
+   } 
+--------------------------------------------------------*/
+
+body{
+	background-image: url("../img/LinceMarcaAgua.jpg");
+}
+
+#tdclave, #tdgrupo, #tdMateria, #tdCal_I, #tdCal_II, #tdCal_III, #tdCal_IV, #tdPromedio, h1, label{
+ 	font-weight: bold;
+ }
+
+ h1{
+ 	color: #0870f4
+ }
