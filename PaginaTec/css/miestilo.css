@@ -1,0 +1,40 @@
+.tituloArt
+{
+	color: red;
+}
+
+.aviso1, .evento1
+{
+	background-color: green;
+	color: white;
+}
+
+.etiqueta {
+    
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.lee_mas
+{
+	text-align: center;
+	background-color: red;
+	color: white;
+	height: 35px;
+	width: 118px;
+	-moz-box-shadow: 0px 3px 5px #000000;
+	-webkit-box-shadow: 0px 3px 5px #000000;
+	box-shadow: 0px 3px 5px #000000;
+}
+
+.tecmexico
+{
+	font-style: italic;
+	color: gray;
+}
+
+.campus
+{
+	color: green;
+}

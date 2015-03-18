@@ -1,0 +1,39 @@
+body
+{
+	background-image: url("../img/fondo1.jpg");
+}
+
+.Estado
+{
+	background-image: url("../img/ganar.jpg");
+	color: red;
+	font-family: 'Lobster', 
+	cursive;
+}
+
+.tituloPrinc
+{
+	font-family: 'Montserrat', sans-serif;
+	color: red;
+}
+
+.letras
+{
+	background-color: orange;
+}
+
+.pista
+{
+	color: red;
+}
+
+.Palabra
+{
+	background-image: url("../img/arma.jpg");
+	font-family: 'Oswald', sans-serif;
+}
+
+.parte
+{
+	font-size: 24px;
+}
