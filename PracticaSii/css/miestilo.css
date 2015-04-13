@@ -1,0 +1,79 @@
+/*input {
+
+}
+
+body label{	
+	color: white;
+	font-size: 30px;	
+	background: black;
+}
+
+body h1{
+	font-size: 40px;
+	color: white;	
+	text-align: center;		
+	background: black;
+}*/
+
+div a{/*para cuando pasamos el cursor por arriva*/
+	text-decoration: underline;
+}
+
+/*div{
+     border: 1px solid black;
+   } 
+--------------------------------------------------------*/
+
+body{
+	background-image: url("../img/LinceMarcaAgua.jpg");
+}
+
+#tdclave, #tdgrupo, #tdMateria, #tdCal_I, #tdCal_II, #tdCal_III, #tdCal_IV, #tdPromedio, h1, label{
+ 	font-weight: bold;
+ }
+
+ h1{
+ 	color: #0870f4
+ }
+
+.imagenOp
+ {
+ 	 height : 100px;
+ 	 width : 100px
+ }
+
+ input[type=button]{
+
+ 	border: 1px solid;
+ 	color: black;
+ 	font-variant: small-caps;
+ 	font-size: 10px;
+ 	height: 18px;
+ 	border-radius: 5px 5px 5px 5px ;
+ 	background-color: orange;
+
+ }
+
+ input[type=button]:hover{
+
+ 	border: 1px outset;
+ 	color: black;
+ 	font-variant: small-caps;
+ 	font-size: 10px;
+ 	height: 18px;
+ 	border-radius: 5px 5px 5px 5px ;
+ 	background-color: orange;
+
+}
+
+input[type=button]:active{
+
+ 	border: 1px inset;
+ 	color: black;
+ 	font-variant: small-caps;
+ 	font-size: 10px;
+ 	height: 18px;
+ 	border-radius: 5px 5px 5px 5px ;
+ 	background-color: rgba(255,165,0,0.6);
+
+ }

@@ -6,8 +6,8 @@ var palabras = [
 		]
 
 var pistas = [
-	"Animal con mayor vidas que tu", "Medio de transporte rapido pero costoso", "Entretenimiento virtual", "Sentencia del viejo oeste", 
-	"Saludo informal entre amigos", "Fontanero famoso que salva a una princesa", "Guerrero silecioso del antiguo japon", 
+	"Animal con mayor vidas que tu", "Medio de transporte rápido pero costoso", "Entretenimiento virtual", "Sentencia del Viejo Oeste", 
+	"Saludo informal entre amigos", "Fontanero famoso que salva a una princesa", "Guerrero silencioso del antiguo Japón", 
 	"Carrera donde una de sus ramas son las telecomunicaciones"
 ]
 
